@@ -11,7 +11,7 @@ data = PG.connect(dbname: 'your_database', user: 'your_username')
 
 # The data from table_1 will be deliverd to the api endpoint "/api/v1/table_1"
 
-# table_1 = data.exec('SELECT * from table_1;')
+# table_1 = data.exec('SELECT * FROM table_1;')
 # table_1_array = []
 # table_1.each do |row|
 # 	table_1_array << row
