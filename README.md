@@ -1,0 +1,1 @@
+A React app shell with react-scripts, Sinatra and Postgresql
