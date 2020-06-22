@@ -4,12 +4,9 @@ require 'json'
 require 'pg'
 require 'pry' if development? || test?
 
-# DATA RETRIEVAL
-# Set username and Postgresql database name below:
+# data = PG.connect(dbname: 'your_database', user: 'your_username')
 
-data = PG.connect(dbname: 'your_database', user: 'your_username')
-
-# The data from table_1 will be deliverd to the api endpoint "/api/v1/table_1"
+# # The data from table_1 will be deliverd to the api endpoint "/api/v1/table_1"
 
 # table_1 = data.exec('SELECT * FROM table_1;')
 # table_1_array = []
@@ -18,7 +15,7 @@ data = PG.connect(dbname: 'your_database', user: 'your_username')
 # end
 # table_1_json = table_1_array.to_json
 
-# ROUTES
+# # ROUTES
 
 # get '/api/v1/table_1' do
 # 	content_type :json
