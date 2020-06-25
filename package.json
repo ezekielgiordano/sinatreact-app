@@ -1,5 +1,6 @@
 {
     "name": "sinatreact-app",
+    "homepage": ".",
     "private": true,
     "proxy": "http://localhost:4567",
     "dependencies": {
